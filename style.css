@@ -30,6 +30,13 @@ body {
     align-items: center;
     justify-content: center;
     width: 50%;
+    transition: 3s;
+}
+
+.instachg {
+    position: absolute;
+    margin-left: 44px;
+    margin-top: 5px;
 }
 
 .instagram-login {
@@ -156,5 +163,23 @@ body {
     }
     .group {
         border: 1px solid transparent;
+    }
+}
+
+
+/* Teste */
+
+@keyframes cf3FadeInOut {
+    0% {
+        opacity: 1;
+    }
+    45% {
+        opacity: 1;
+    }
+    55% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
     }
 }
